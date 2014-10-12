@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>7주차 과제</title>
+<style>
+ body{
+
+    background: #e9eaee;
+
+    font-family: "NanumGothic" Serif;
+
+    font-size: 12pt;
+
+  }
+
+  .본문 {
+
+    background: white;
+
+    height: 100%;
+
+    width: 99.6%;
+
+    padding: 10px;
+
+  }
+
+  .반응 {
+
+    background: #f6f7f9;
+
+    padding: 2%;
+
+    height: 100%;
+
+    width: 99.3%;
+
+    border: 2px solid #e1e2e4;
+
+  
+
+}
+
+    
+
+  }
+
+  .반응 ol {
+
+    font-size: 10pt;
+
+  }
+
+  .프사 {
+
+    width: 32px;
+
+    height: 32px;
+
+  
+
+  }
+
+  ol .프사{
+
+   float: left;
+
+   margin: 5px 5px 0px 0px;  
+
+  }  
+
+   
+
+  .포스트{
+
+   max-width: 470px;
+
+   margin: auto; 
+
+ }
+
+ img{
+
+  
+
+   width: 100%; 
+
+   height: 250px;
+
+ }
+
+ .명령 {
+
+   font-size: 10pt;
+
+   list-style-type: none;
+
+   padding-left: 0;
+
+    
+
+ }
+
+ .명령 li{
+
+   display: inline;
+
+ }
+
+ 
+
+ a{
+
+    text-decoration: none;
+
+    font color: #3f598a;
+
+    
+
+ }
+
+ .댓글{
+
+   font-size: 10pt;
+
+   list-style-type: none;
+
+   padding-left: 0;
+
+   border-top: 2px solid #e1e2e4;
+
+ 
+
+  }
+
+ .링크{
+
+    float: left;
+
+    margin-right: 5px;
+
+ }   
+
+  
+
+ .시간{
+
+   padding: 5px 0px 10px 35px    
+
+ }
+
+ .반응 p{
+
+  margin-top: 13px;
+
+  margin-bottom: 5px;
+
+  
+
+ }   
+
+ 
+
+  </style>
+
+</head>
+
+<body>
+
+ 
+
+<div class="포스트">
+
+  <div class="본문">
+
+    <img class="프사" src="http://kaywonsad.appspot.com/s/art01.jpg" alt="A">
+
+    <a href="#">Alan Kang</a>
+
+    <p>다음카카오는 일부 오해에 둘러싸여 있다. 부풀려진 의혹들이
+
+     삽시간에 터져나오면서 억울함도 커져가고 있다.</p>
+
+    <p>그럼에도 지켜내야 할 핵심은 사용자의 신뢰다. 신뢰는 한번
+
+      잃어버리면 회복하기가 어렵다. 1년 여 전에도 약속했던 압수
+
+      수색 무력화 조치가 이번에는 지켜질 수 있을지 침묵하는 사 
+
+     용자들은 조용히 지켜보고 있다.</p>
+
+    <img src="http://www.bloter.net/wp-content/uploads/2014/10/daumkakao-112-765x430.jpg"        alt="daumkakao" >
+
+    <ul class="명령">
+
+      <li><a href="#">Like</a></li> 
+
+      <li><a href="#">Comment</a></li> 
+
+      <li><a href="#">Share</a></li>
+
+    </ul>
+
+  </div>
+
+  <div class="반응"> 
+
+    <p><a href="#">Alan Kang and 34 others</a> like this.</p>
+
+    <ol class="댓글">
+
+      <li>
+
+        <img class="프사" src="http://kaywonsad.appspot.com/s/art01.jpg" alt="A">
+
+        <a  class= "링크" href="#">Alan Kang</a>
+
+        <p>이번 새로운 발표에 영장신청기간보다 짧게 서버저장 기간을 2일로 줄인다고 발표했지만, 공염불일 가능성이 한층 높아졌네요.</p>
+
+        <div class="시간"><a href="#" class="작성시간">17hrs</a></div>
+
+      </li>
+
+      <li>
+
+        <img class="프사" src="http://kaywonsad.appspot.com/s/art01.jpg" alt="A">
+
+        <a class= "링크" href="#">Alan Kang</a>
+
+        <p>이번 새로운 발표에 영장신청기간보다 짧게 서버저장 기간을 2일로 줄인다고 발표했지만, 공염불일 가능성이 한층 높아졌네요.</p>
+
+        <div class="시간"><a href="#" class="작성시간">17hrs</a></div>
+
+      </li>
+
+      <li>
+
+        <img class="프사" src="http://kaywonsad.appspot.com/s/art01.jpg" alt="A">
+
+        <a  class= "링크" href="#">Alan Kang</a>
+
+        <p>이번 새로운 발표에 영장신청기간보다 짧게 서버저장 기간을 2일로 줄인다고 발표했지만, 공염불일 가능성이 한층 높아졌네요.</p>
+
+        <div class="시간"><a href="#" class="작성시간">17hrs</a></div>
+
+      </li>
+
+    </ol>
+
+  </div>
+
+</div>
+
+ 
+
+</body>
+
+</html> 
